@@ -113,7 +113,7 @@ function KLibrary:Create()
 	Kurumi.BackgroundTransparency = 1.000
 	Kurumi.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	Kurumi.Position = UDim2.new(0.0100864554, 0, 0.0205479451, 0)
-	Kurumi.Size = UDim2.new(0, 42, 0, 28)
+	Kurumi.Size = UDim2.new(0, 72, 0, 28)
 	Kurumi.Font = Enum.Font.GothamBold
 	Kurumi.Text = "Kurumi"
 	Kurumi.TextColor3 = Color3.fromRGB(108, 108, 108)
