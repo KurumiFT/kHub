@@ -126,7 +126,7 @@ function KLibrary:Create()
 	Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.BackgroundTransparency = 1.000
 	Hub.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	Hub.Position = UDim2.new(0.0706051886, 0, 0.0205479451, 0)
+	Hub.Position = UDim2.new(0.1, 0, 0.0205479451, 0)
 	Hub.Size = UDim2.new(0, 42, 0, 28)
 	Hub.Font = Enum.Font.GothamBold
 	Hub.Text = "Hub"
