@@ -137,7 +137,7 @@ function KLibrary:Create()
 
 	local InsideHandler = {}
 
-	function InsideHandler:CreateSection(text)
+	function InsideHandler:CreateSection(text,visible)
 		local tabButton = Instance.new("TextButton")
 		local itemsPad = Instance.new("UIPadding")
 		local itemsList = Instance.new("UIListLayout")
@@ -147,6 +147,7 @@ function KLibrary:Create()
 		CurrentTabFrame.Name = text.." Container"
 		CurrentTabFrame.Parent = CurrentContainer
 		CurrentTabFrame.Active = true
+		CurrentTabFrame.Visible = visible
 		CurrentTabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		CurrentTabFrame.BackgroundTransparency = 1.000
 		CurrentTabFrame.Size = UDim2.new(1, 0, 1, 0)
